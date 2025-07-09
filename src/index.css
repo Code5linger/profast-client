@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+
+@plugin "daisyui" {
+  themes: light --default;
+}
+
+/* span {
+  background-color: #cdedfd;
+  background-image: linear-gradient(319deg, #cdedfd 0%, #fffd78 37%, #ffe4e1 100%);
+  padding: .25rem;
+  text-align: center;
+  border-radius: .25rem;
+  width: 100%;
+  color: black;
+}
+
+nav ul li .active {
+  background: #CAEB66;
+  border-radius: 50px;
+} */
+
+.font-urbanist {
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
